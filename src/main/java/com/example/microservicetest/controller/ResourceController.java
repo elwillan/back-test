@@ -13,6 +13,6 @@ public class ResourceController {
 
     @GetMapping("/resource")
     public List<String> getResource() {
-        return Arrays.asList("hello", "world");
+        return Arrays.asList("test maven project wdts", "hello", "world");
     }
 }
